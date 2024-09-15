@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: Proj02_AdminServerApplication
+
+server.port

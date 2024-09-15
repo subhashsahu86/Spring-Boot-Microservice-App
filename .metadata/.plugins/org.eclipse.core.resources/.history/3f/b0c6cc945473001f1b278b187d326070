@@ -1,0 +1,12 @@
+spring.application.name=Proj04_WelcomeService
+
+server.port=8081
+
+#if the eureka service registory is not running on 8761 port then we configure
+# this property and mention the port no.
+eureka.client.service-url.defaultZone = http://localhost:8761/eureka/
+
+#configure the admin cleint
+spring.application.boot.admin.client.url = http://localhost:9090/
+
+management.endpoints.web.exposure.include='*'

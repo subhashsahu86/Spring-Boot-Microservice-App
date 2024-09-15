@@ -1,0 +1,18 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '''*'''
+server:
+  port: 8081
+spring:
+  application:
+    boot:
+      admin:
+        client:
+          url: http://localhost:9090/
+    name: Proj04_WelcomeService

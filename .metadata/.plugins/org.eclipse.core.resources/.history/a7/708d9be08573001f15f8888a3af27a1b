@@ -1,0 +1,5 @@
+package com.subh.client;
+
+public interface WelcomeFeignClient {
+
+}

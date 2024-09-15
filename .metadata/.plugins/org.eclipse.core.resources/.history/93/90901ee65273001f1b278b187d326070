@@ -1,0 +1,5 @@
+package com.subh.controller;
+
+public class WelcomeController {
+
+}

@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: Admin-Server-Application
+    
+server:
+   port: 9090
