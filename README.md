@@ -9,10 +9,15 @@ Monolithic Architecture
 Problems With Monolithic Architecture:
 =====================================
 1.Tight Coupling.
+
 2.Maintenance is Difficult.
+
 3.Re-Deploy entire application.
+
 4.Technology dependent.
+
 5.Burden on server(server crash problem)
+
 6.Single point of failure.
 
 -> To overcome these problems, we are using Microservices Architecture.
