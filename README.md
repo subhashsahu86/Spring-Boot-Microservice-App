@@ -24,11 +24,11 @@ Problems With Monolithic Architecture:
 
 Microservices 
 -------------
--> It is not a technology/language.
--> It is not a framework.
--> It is not an API.
--> It is an architecture Design pattern.
--> It is universal pattern, anyone can use this to design the application.
+- It is not a technology/language.
+- It is not a framework.
+- It is not an API.
+- It is an architecture Design pattern.
+- It is universal pattern, anyone can use this to design the application.
 
 Advantages of Microservices : 
 --------------------------
