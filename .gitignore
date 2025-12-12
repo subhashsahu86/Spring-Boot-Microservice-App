@@ -1,0 +1,16 @@
+# Ignore Eclipse workspace metadata
+.metadata/
+*.log
+
+# Ignore Eclipse project settings
+*.classpath
+*.project
+.settings/
+
+# Ignore build output
+target/
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
