@@ -1,13 +1,12 @@
-===================================================
+
 Project Development with Microservice Architecture
-===================================================
 
 Monolithic Architecture
-=======================
+
 -> Developing all the functionlities in a single Application.
 
 Problems With Monolithic Architecture:
-=====================================
+
 1.Tight Coupling.
 
 2.Maintenance is Difficult.
@@ -22,9 +21,9 @@ Problems With Monolithic Architecture:
 
 -> To overcome these problems, we are using Microservices Architecture.
 
-==============
+
 Microservices 
-==============
+
 -> It is not a technology/language.
 -> It is not a framework.
 -> It is not an API.
@@ -32,7 +31,7 @@ Microservices
 -> It is universal pattern, anyone can use this to design the application.
 
 Advantages of Microservices : 
-===========================
+
 
 1) Loosely Coupled.
 2) Burden reduce on server.
@@ -42,7 +41,7 @@ Advantages of Microservices :
 6) Quick Deliveries.
 
 Challenges with Microservices :
-==============================
+
 1) Bounded Concept : It means identifying how many Microservices we need to develop for one 
    ---------------- application and deciding which functionlity we need to add in which microservice.
 
@@ -55,9 +54,9 @@ Eg : like we want to develop an application have 150+ features so let's suppose 
 3) Visiblity Problem : In Microservies Architecture we may not get chance to work with all the   
 ---------------------  microservices.
 
-=========================
+
 Microservice Architecture
-=========================
+
 
 -> There is no fixed architecture for microservice development.
 -> we can coustmize microservice architecture according to our project.
@@ -128,9 +127,9 @@ API Gateway :
 Filter : we can perform pre-processing and post-processing logic
 Routings: to forward request to particuler backend-api.
 
-=================================================================
+
 Steps to Develop the Service Registory Application(Eureka Server)
-==================================================================
+
 
 1) Create Spring boot project with below Dependency
        -Eureka server ( spring-cloud-starter-netflix-eureka-server)
@@ -179,9 +178,9 @@ Note-2 : If service-registory running on another port then we have to register c
      
        URL : http://localhost:8761/
 
-=============================================
+
 Steps to Develop the Admin Server Application
-=============================================
+
 
 1) Create Spring boot project with dependency
      -Admin server(server)
@@ -197,9 +196,9 @@ Steps to Develop the Admin Server Application
 
    URL : http://localhost:9090/
 
-=============================================
+
 Steps to Develop the Zipkin Server Application
-=============================================
+
 
 This project is already available so we not need to make.
 
@@ -218,9 +217,9 @@ This project is already available so we not need to make.
 
    URL : http://127.0.0.1:9411/
 
-=============================================
+
  Develop the Welcome API
-=============================================
+
 
 1) create the spring boot project with the following depedency
     
