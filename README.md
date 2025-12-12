@@ -1,8 +1,8 @@
-
+---------------------------------------------------
 Project Development with Microservice Architecture
-
+---------------------------------------------------
 Monolithic Architecture
-
+-----------------------
 -> Developing all the functionlities in a single Application.
 
 Problems With Monolithic Architecture:
@@ -23,7 +23,7 @@ Problems With Monolithic Architecture:
 
 
 Microservices 
-
+-------------
 -> It is not a technology/language.
 -> It is not a framework.
 -> It is not an API.
@@ -31,7 +31,7 @@ Microservices
 -> It is universal pattern, anyone can use this to design the application.
 
 Advantages of Microservices : 
-
+--------------------------
 
 1) Loosely Coupled.
 2) Burden reduce on server.
@@ -41,7 +41,7 @@ Advantages of Microservices :
 6) Quick Deliveries.
 
 Challenges with Microservices :
-
+-----------------------------
 1) Bounded Concept : It means identifying how many Microservices we need to develop for one 
    ---------------- application and deciding which functionlity we need to add in which microservice.
 
@@ -56,7 +56,7 @@ Eg : like we want to develop an application have 150+ features so let's suppose 
 
 
 Microservice Architecture
-
+------------------------
 
 -> There is no fixed architecture for microservice development.
 -> we can coustmize microservice architecture according to our project.
@@ -180,7 +180,7 @@ Note-2 : If service-registory running on another port then we have to register c
 
 
 Steps to Develop the Admin Server Application
-
+-------------------------------------------
 
 1) Create Spring boot project with dependency
      -Admin server(server)
@@ -198,7 +198,7 @@ Steps to Develop the Admin Server Application
 
 
 Steps to Develop the Zipkin Server Application
-
+---------------------------------------------
 
 This project is already available so we not need to make.
 
@@ -219,7 +219,7 @@ This project is already available so we not need to make.
 
 
  Develop the Welcome API
-
+--------------------------
 
 1) create the spring boot project with the following depedency
     
