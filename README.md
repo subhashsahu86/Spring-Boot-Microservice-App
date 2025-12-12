@@ -19,7 +19,7 @@ Problems With Monolithic Architecture:
 
 6.Single point of failure.
 
--> To overcome these problems, we are using Microservices Architecture.
+- To overcome these problems, we are using Microservices Architecture.
 
 
 Microservices 
@@ -42,25 +42,22 @@ Advantages of Microservices :
 
 Challenges with Microservices :
 -----------------------------
-1) Bounded Concept : It means identifying how many Microservices we need to develop for one 
-   ---------------- application and deciding which functionlity we need to add in which microservice.
+1) Bounded Concept : It means identifying how many Microservices we need to develop for one application and deciding which functionlity we need to add in which microservice.
 
 Eg : like we want to develop an application have 150+ features so let's suppose we develop 50 
      microservices so which feature is added into which microservices is a difficult task.
 
-2) Repeated Configuration : In several Microservices we need to write  same configuration 
-   ----------------------   like data source, smtp, kafka configurations etc...
+2) Repeated Configuration : In several Microservices we need to write  same configuration like data source, smtp, kafka configurations etc...
 
-3) Visiblity Problem : In Microservies Architecture we may not get chance to work with all the   
----------------------  microservices.
+3) Visiblity Problem : In Microservies Architecture we may not get chance to work with all the microservices.
 
 
 Microservice Architecture
 ------------------------
 
--> There is no fixed architecture for microservice development.
--> we can coustmize microservice architecture according to our project.
--> As part of microservice architecture we are going to use these below components.
+- There is no fixed architecture for microservice development.
+- we can coustmize microservice architecture according to our project.
+- As part of microservice architecture we are going to use these below components.
 note: all the below components are not mendatory , we can use on demand
 
 1) Service Registory (Eureka Server)
@@ -74,17 +71,17 @@ note: all the below components are not mendatory , we can use on demand
 
 Service Registory : 
 -------------------
--> It is used to maintain all API information like name, status, url and health at one place.
--> It is also called as service Discovery.
--> we can use "Eureka Server" as service discovery.
+- It is used to maintain all API information like name, status, url and health at one place.
+- It is also called as service Discovery.
+- we can use "Eureka Server" as service discovery.
    Note : Eureka server is provided by spring cloud library and it is free and open-source.
    Others : Amazon service Registory, Azure Service Registory.(Paid)
--> it provides user interface to get all the API info.
+- it provides user interface to get all the API info.
 
 Admin Server :
 --------------
--> It is used to moniter and manage all the APIs at one place.
--> It provides user interface to access all APIs actuators endpoints at one place.
+- It is used to moniter and manage all the APIs at one place.
+- It provides user interface to access all APIs actuators endpoints at one place.
 Ex: 
 1) Health checks
 2) Congig properties
@@ -96,33 +93,33 @@ Ex:
 
 Zipkin Server : 
 --------------
--> It is used for distributed tracing of our request.
--> It provides User interface to access APIs Execution details. 
+- It is used for distributed tracing of our request.
+- It provides User interface to access APIs Execution details. 
 Ex : 
--> how much time taking to process one request.
--> which microservice taking more time to process request.
--> How many microservices invloved in one request processing.
+- how much time taking to process one request.
+- which microservice taking more time to process request.
+- How many microservices invloved in one request processing.
 
 Config Server :
 -------------
 
--> It is used to seperate Application code or application properties.
--> It is used to externlize config properties of our application.
--> It makes our application loosly coupled with properties file/yml file.
+- It is used to seperate Application code or application properties.
+- It is used to externlize config properties of our application.
+- It makes our application loosly coupled with properties file/yml file.
 
 Feign Client:
 -------------
--> It is used for Inter service communication.
+- It is used for Inter service communication.
 
 Note : If one API communicate with another API within the same application then it is called as 
        Inter service communication.
 
 API Gateway :
 ------------
--> It acts as Entry point of all backend APIs.
--> It acts as mediator between Front-end and Backend services.
--> It is Front Controller of all the microservices.
--> In In API Gateway we will write Filters and Routings.
+- It acts as Entry point of all backend APIs.
+- It acts as mediator between Front-end and Backend services.
+- It is Front Controller of all the microservices.
+- In In API Gateway we will write Filters and Routings.
 
 Filter : we can perform pre-processing and post-processing logic
 Routings: to forward request to particuler backend-api.
@@ -223,12 +220,12 @@ This project is already available so we not need to make.
 
 1) create the spring boot project with the following depedency
     
-    -> Eureka Discovery client
-    -> Admin server client
-    -> Zipkin
-    -> Spring web
-    -> spring boot devtools
-    -> Spring boot actuators
+    - Eureka Discovery client
+    - Admin server client
+    - Zipkin
+    - Spring web
+    - spring boot devtools
+    - Spring boot actuators
 
 2) configure @EnableDiscoveryClient annotation on boot starter class.
 
